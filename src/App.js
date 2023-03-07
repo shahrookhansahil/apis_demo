@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState, useEffect } from 'react';
 
@@ -12,7 +11,7 @@ function App() {
   return (
     <div className="App">
      <button onClick={()=>setState(state+1)}>CLick me</button>
-     <h1>{state}</h1>
+     <h1>state:  {state}</h1>
     </div>
   );
 }
